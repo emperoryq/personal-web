@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; "charset="UTF-8">
+<title>个人主页</title>
+</head>
+<frameset cols="100%,*" frameborder="yes" border="2">
+	<frameset rows="100%,*" frameborder="yes">
+		<frame src="top.html" name="top" scrolling="auto" noresize>
+		<frame src="bottom.html" name="bottom" scrolling="no" noresize>
+	</frameset>
+	<frame src="right.html" name="right" scrolling="auto" noresize>
+	<noframes>
+		...
+	</noframes>
+	</frameset>
+<body>
+<div align="center">
+	<h1>欢迎来到个人主页<h1>
+	<hr>
+</div>
+</body>
+</html>
